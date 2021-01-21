@@ -1,0 +1,38 @@
+{
+  "name": "@xdn/next-example",
+  "version": "1.15.2",
+  "private": true,
+  "scripts": {
+    "build": "xdn build",
+    "next": "next",
+    "start": "xdn run",
+    "deploy": "xdn deploy platform",
+    "prod": "xdn run --production",
+    "next:prod": "next build && next start",
+    "xdn:update": "npm i --save @xdn/core@latest @xdn/next@latest @xdn/prefetch@latest @xdn/react@latest @xdn/cli@latest",
+    "xdn:link": "yalc add @xdn/core @xdn/next @xdn/prefetch @xdn/react @xdn/cli",
+    "deploy:dev": "xdn deploy --api-url=https://moovweb-dev.app --token=MaNB6oVp1Qr54M65sDXyXuNA"
+  },
+  "dependencies": {
+    "@xdn/cli": "file:.yalc/@xdn/cli",
+    "@xdn/core": "file:.yalc/@xdn/core",
+    "@xdn/next": "file:.yalc/@xdn/next",
+    "@xdn/prefetch": "file:.yalc/@xdn/prefetch",
+    "@xdn/react": "file:.yalc/@xdn/react",
+    "globby": "^11.0.1",
+    "isomorphic-git": "^1.7.8",
+    "next": "^10.0.1",
+    "qs": "^6.9.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "simple-git": "^2.24.0",
+    "webpack-dev-middleware": "^3.7.2"
+  },
+  "devDependencies": {
+    "next-offline": "^5.0.0",
+    "typescript": "^4.0.5",
+    "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^3.9.0",
+    "workbox-build": "^5.1.2"
+  }
+}
