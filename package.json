@@ -6,7 +6,7 @@
     "build": "xdn build",
     "next": "next",
     "start": "xdn run",
-    "deploy": "xdn deploy platform",
+    "deploy": "xdn deploy --api-url=https://d61ccacdb9b8.ngrok.io",
     "prod": "xdn run --production",
     "next:prod": "next build && next start",
     "xdn:update": "npm i --save @xdn/core@latest @xdn/next@latest @xdn/prefetch@latest @xdn/react@latest @xdn/cli@latest",
