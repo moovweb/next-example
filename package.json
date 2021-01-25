@@ -6,7 +6,7 @@
     "build": "xdn build",
     "next": "next",
     "start": "xdn run",
-    "deploy": "xdn deploy --api-url=https://d61ccacdb9b8.ngrok.io",
+    "deploy": "xdn deploy --api-url=https://e495299a82cd.ngrok.io",
     "prod": "xdn run --production",
     "next:prod": "next build && next start"
   },
