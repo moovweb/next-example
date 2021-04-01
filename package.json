@@ -6,7 +6,7 @@
     "build": "xdn build",
     "next": "next",
     "start": "xdn run",
-    "deploy": "xdn deploy --api-url=https://moovweb-dev.app",
+    "deploy": "xdn deploy",
     "prod": "xdn run --production",
     "next:prod": "next build && next start"
   },
